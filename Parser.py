@@ -24,7 +24,17 @@ file = []
 for root, dirs, files in os.walk(".", topdown=False):
     for name in files:
         path = os.path.join(root, name)
-        if path.find(".git") != -1:
+        if path.find(".git") != -1 or path.find(".png") != -1 \
+                or path.find(".bmp") != -1\
+                or path.find(".jpg") != -1\
+                or path.find(".jpeg") != -1\
+                or path.find(".ico") != -1\
+                or path.find(".ttf") != -1\
+                or path.find(".wolf") != -1\
+                or path.find(".wolf2") != -1\
+                or path.find(".otf") != -1\
+                or path.find(".exe") != -1\
+                or path.find(".woff") != -1:
             continue
         file.append(path)
 

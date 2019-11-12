@@ -1,4 +1,4 @@
 # GitToTxt
-input: github link 
-https://github.com/KirillSemennikov2803/SaveGitToTxt - Правильно
-https://github.com/KirillSemennikov2803/SaveGitToTxt.git - Не Правильно!
+input: github link  
+https://github.com/KirillSemennikov2803/SaveGitToTxt - РџСЂР°РІРёР»СЊРЅРѕ
+https://github.com/KirillSemennikov2803/SaveGitToTxt.git - РќРµ РџСЂР°РІРёР»СЊРЅРѕ!
